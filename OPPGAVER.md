@@ -5,12 +5,12 @@
 Når du trykke på pluss-knappen (<button>) skal addNewTask-funksjonen kjøres, hvor det skal legges til en ny oppgave i oppgave-listen. Navnet på oppgaven skal være det som står i input-feltet (<input type="text">). Oppgaven skal legges i tasks.
 
 ***Hint***
--- Push
--- Event handler
+ - Push
+ - Event handler
 
 ***Bonus***
---Tøm input-feltet når den nye oppgaven er lagt til i tasks.
---Kjør addNewTask funksjonen når du trykker enter mens du skriver i input-feltet. Se https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf
+ - Tøm input-feltet når den nye oppgaven er lagt til i tasks.
+ - Kjør addNewTask funksjonen når du trykker enter mens du skriver i input-feltet. Se https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf
 
 ### Oppgave 2
 **Legg nye oppgaver til i databasen**
@@ -34,8 +34,8 @@ Sjekk at alt fortsatt fungerer som det skal.
 Når du trykker på avmerkingsboksen <input type="checkbox">) til en oppgave skal verdien av completed endres, og lagres i databasen. Bruk updateTask-funksjonen som er kommentert ut i changeTask-funksjonen.
 
 ***Hint***
--- @change på avmerkingsboks
--- Completed skal settes til den motsatte verdien av det den var. For å få den motsatte verdien av en boolean, kan man skrive et utropstegn (!) foran verdien.
+ - @change på avmerkingsboks
+ - Completed skal settes til den motsatte verdien av det den var. For å få den motsatte verdien av en boolean, kan man skrive et utropstegn (!) foran verdien.
 ```sh
 task.completed = !task.completed
 ```
