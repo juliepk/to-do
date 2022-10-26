@@ -34,7 +34,8 @@ Sjekk at alt fortsatt fungerer som det skal.
 Når du trykker på avmerkingsboksen `<input type="checkbox">`) til en oppgave skal verdien av completed endres, og lagres i databasen. Bruk updateTask-funksjonen som er kommentert ut i changeTask-funksjonen.
 
 ***Hint***
- - @change på avmerkingsboks
+ - @change eller @input på avmerkingsboks
+ - Send inn index til funksjonen, og hent den aktuelle tasken ved å skrive `this.tasks[index]`
  - Completed skal settes til den motsatte verdien av det den var. For å få den motsatte verdien av en boolean, kan man skrive et utropstegn (!) foran verdien.
 ```sh
 task.completed = !task.completed
