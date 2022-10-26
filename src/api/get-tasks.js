@@ -1,7 +1,7 @@
 // Oppgave 3 - Bruk den kommenterte ut koden til å hente ut alle tasker
 
 // export default function getTasks() {
-// 	return fetch("localhost:1337/tasks", {
+// 	return fetch("http://localhost:1337/tasks", {
 // 		method: "GET",
 // 		headers: { "Content-Type": "application/json" }
 // 	})
