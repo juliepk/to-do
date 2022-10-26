@@ -2,11 +2,11 @@
 
 ### Oppgave 1
 **Legg til flere oppgaver i listen**
-Når du trykke på pluss-knappen (<button>) skal addNewTask-funksjonen kjøres, hvor det skal legges til en ny oppgave i oppgave-listen. Navnet på oppgaven skal være det som står i input-feltet (<input type="text">). Oppgaven skal legges i tasks.
+Når du trykke på pluss-knappen (`<button>`) skal addNewTask-funksjonen kjøres, hvor det skal legges til en ny oppgave i oppgave-listen. Navnet på oppgaven skal være det som står i input-feltet (`<input type="text">`). Oppgaven skal legges i tasks.
 
 ***Hint***
- - Push
- - Event handler
+ - Push (https://www.w3schools.com/jsref/jsref_push.asp)
+ - Event på button (Se https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf --> Actions/Events)
 
 ***Bonus***
  - Tøm input-feltet når den nye oppgaven er lagt til i tasks.
@@ -31,7 +31,7 @@ Sjekk at alt fortsatt fungerer som det skal.
 
 ### Oppgave 4
 **Oppdater oppgaven**
-Når du trykker på avmerkingsboksen <input type="checkbox">) til en oppgave skal verdien av completed endres, og lagres i databasen. Bruk updateTask-funksjonen som er kommentert ut i changeTask-funksjonen.
+Når du trykker på avmerkingsboksen `<input type="checkbox">`) til en oppgave skal verdien av completed endres, og lagres i databasen. Bruk updateTask-funksjonen som er kommentert ut i changeTask-funksjonen.
 
 ***Hint***
  - @change på avmerkingsboks
